@@ -127,7 +127,7 @@ var divList = dom.find('.red'); // 获取多个 div.red 元素
 dom.each(divList, function (n) {
   return console.log(n);
 }); // 遍历 divList 里的所有元素
-},{}],"../../../../AppData/Local/Yarn/Data/global/node_modules/parcel/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{}],"C:/Users/83443/AppData/Local/Yarn/Data/global/node_modules/parcel/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -155,7 +155,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64261" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "65063" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
@@ -331,5 +331,5 @@ function hmrAcceptRun(bundle, id) {
     return true;
   }
 }
-},{}]},{},["../../../../AppData/Local/Yarn/Data/global/node_modules/parcel/src/builtins/hmr-runtime.js","main2.js"], null)
+},{}]},{},["C:/Users/83443/AppData/Local/Yarn/Data/global/node_modules/parcel/src/builtins/hmr-runtime.js","main2.js"], null)
 //# sourceMappingURL=/main2.5296b8f0.js.map
